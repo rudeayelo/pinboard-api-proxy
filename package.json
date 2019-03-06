@@ -1,0 +1,24 @@
+{
+  "name": "pinboard-api-proxy",
+  "version": "1.0.0",
+  "description": "A CORS-enabled version of the Pinboard API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "micro"
+  },
+  "keywords": [
+    "pinboard",
+    "API"
+  ],
+  "author": "Zander Martineau",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.18.0",
+    "micro": "9.3.3",
+    "micro-cors": "0.1.1"
+  },
+  "devDependencies": {
+    "micro-dev": "3.0.0"
+  }
+}
